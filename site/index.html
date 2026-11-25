@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundCare AI | Autonomous Post-Acute Placement Intelligence for Washington AFHs</title>
+  <meta name="description" content="AI-Native acute-to-AFH placement platform connecting hospital discharge planners and families with licensed Adult Family Homes across Thurston, Lewis, and Mason counties. Powered by SoundCare 10-Agent Swarm.">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#16a34a',
+              600: '#15803d',
+              700: '#166534',
+              800: '#14532d',
+              900: '#0f3a21',
+            },
+            navy: {
+              800: '#0f172a',
+              900: '#020617',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-navy-900 text-slate-300 px-4 py-2 text-xs md:text-sm text-center flex items-center justify-center gap-2 border-b border-slate-800">
+    <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-brand-500/20 text-brand-400 border border-brand-500/30">WA RCW 18.330 Compliant</span>
+    <span>SoundCare AI &bull; Serving Thurston, Lewis, and Mason County Adult Family Homes</span>
+    <span class="text-slate-500 hidden md:inline">|</span>
+    <span class="hidden md:inline text-slate-400">Headquartered in Auburn, WA &bull; CEO: Henry Oh</span>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-700 to-brand-500 flex items-center justify-center text-white shadow-md shadow-brand-500/20 font-bold text-lg">
+          SC
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-slate-900 block">SoundCare AI</span>
+          <span class="text-[11px] font-semibold text-brand-700 tracking-wider uppercase block">Post-Acute Placement Intelligence</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="about.html" class="hover:text-brand-600 transition">About & AI Swarm</a>
+        <a href="#live-intelligence" class="text-emerald-700 font-bold hover:text-emerald-800 transition flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>Live Census & Regs</a>
+        <a href="#how-it-works" class="hover:text-brand-600 transition">How It Works</a>
+        <a href="#counties" class="hover:text-brand-600 transition">Counties Covered</a>
+        <a href="providers.html" class="hover:text-brand-600 transition">For AFH Providers</a>
+        <a href="#contact" class="hover:text-brand-600 transition">Contact</a>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a href="providers.html" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 border border-brand-200 transition">
+          AFH Vacancy Portal
+        </a>
+        <a href="#intake" class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 shadow-md shadow-brand-600/20 transition">
+          Find A Verified Bed
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden pt-16 pb-20 lg:pt-24 lg:pb-32 bg-gradient-to-b from-white via-slate-50 to-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-100/80 border border-brand-200 text-brand-800 text-xs font-semibold">
+            <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+            AI-Native Autonomous Placement Swarm &bull; 120-Min Hospital SLA
+          </div>
+          
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">
+            Precision AFH Placement for <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-emerald-700">South Sound</span> Seniors.
+          </h1>
+
+          <p class="text-lg text-slate-600 max-w-2xl font-normal leading-relaxed">
+            Eliminate weeks of discharge delays and dozens of mismatched cold calls. SoundCare’s autonomous 10-agent AI swarm parses 40-page hospital EHR records in seconds, solving multi-constraint clinical requirements across <strong>370+ licensed Adult Family Homes in Thurston, Lewis, and Mason counties</strong>.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 pt-2">
+            <a href="#intake" class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl text-base font-semibold text-white bg-brand-600 hover:bg-brand-700 shadow-lg shadow-brand-600/25 transition">
+              Start Rapid Clinical Assessment
+              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+            <a href="providers.html" class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl text-base font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-300 shadow-sm transition">
+              AFH Owners: List Bed Vacancy
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-6 border-t border-slate-200 grid grid-cols-3 gap-4 text-xs font-medium text-slate-500">
+            <div>
+              <span class="block text-slate-900 font-bold text-base">370+</span>
+              Licensed AFHs Network
+            </div>
+            <div>
+              <span class="block text-slate-900 font-bold text-base">&lt; 120 Mins</span>
+              Hospital SLA Match
+            </div>
+            <div>
+              <span class="block text-slate-900 font-bold text-base">100% Free</span>
+              For Families (RCW 18.330)
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive AI Intake Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl shadow-slate-300/50 border border-slate-200/80 relative">
+            <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+              <div class="flex items-center gap-2.5">
+                <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                <h3 class="text-sm font-bold text-slate-900">SoundCare MatchKernel v4.2</h3>
+              </div>
+              <span class="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md font-mono">RCW 18.330 Ready</span>
+            </div>
+
+            <!-- Mini Form inside Hero -->
+            <form id="hero-quick-match" class="space-y-4 pt-4 text-sm" onsubmit="event.preventDefault(); window.runQuickMatch();">
+              <div>
+                <label class="block font-semibold text-slate-700 mb-1">Target County</label>
+                <select id="quick-county" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-slate-50">
+                  <option value="thurston">Thurston County (Olympia, Lacey, Tumwater)</option>
+                  <option value="lewis">Lewis County (Centralia, Chehalis)</option>
+                  <option value="mason">Mason County (Shelton, Belfair)</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block font-semibold text-slate-700 mb-1">Acuity & Transfer Requirements</label>
+                <select id="quick-acuity" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-slate-50">
+                  <option value="twoperson">Hoyer Mechanical Lift + 2-Person Physical Assist</option>
+                  <option value="dementia">Secured Memory Care / Wandering / Delayed Egress</option>
+                  <option value="insulin">Nurse-Delegated Sliding-Scale Insulin & Wound Care</option>
+                  <option value="assisted">Standard Assisted Living / Ambulatory ADL Support</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block font-semibold text-slate-700 mb-1">Monthly Private Pay Runway</label>
+                <select id="quick-budget" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-slate-50">
+                  <option value="mid">$6,500 - $8,000 / month (Standard AFH)</option>
+                  <option value="high">$8,000 - $10,500+ / month (High Acuity / Private Suite)</option>
+                  <option value="spenddown">12-24 Mo Spend-Down &bull; DSHS Medicaid Transition</option>
+                </select>
+              </div>
+
+              <button type="submit" class="w-full py-3 px-4 bg-navy-900 hover:bg-slate-800 text-white font-semibold rounded-lg shadow transition flex items-center justify-center gap-2">
+                <span>Evaluate 370 Homes via CSP Solver</span>
+                <svg class="w-4 h-4 text-brand-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              </button>
+            </form>
+
+            <div id="quick-result" class="hidden mt-4 p-4 rounded-xl bg-brand-50 border border-brand-200 text-xs space-y-2">
+              <div class="font-bold text-brand-900 flex items-center gap-2">
+                <svg class="w-4 h-4 text-brand-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span>Verified Matching Homes Identified:</span>
+              </div>
+              <p class="text-slate-700" id="quick-result-text"></p>
+              <div class="pt-2 flex justify-between items-center text-slate-500 font-mono">
+                <span>DSHS Stop-Placement Check: 100% CLEAR</span>
+                <a href="#intake" class="font-bold text-brand-700 hover:underline">Complete Intake &rarr;</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Live Intelligence Hub: 4x Daily Master Synchronization -->
+  <section id="live-intelligence" class="py-16 bg-slate-950 text-white relative border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header with Live Pulse -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 pb-6 border-b border-slate-800 gap-4">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950 text-emerald-400 border border-emerald-800/80 mb-3">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            LIVE RADAR &bull; MASTER 4X DAILY AUTONOMOUS SYNC (00:00, 06:00, 12:00, 18:00 UTC)
+          </div>
+          <h2 class="text-3xl font-extrabold text-white tracking-tight">
+            South Sound Real-Time Bed Census &amp; DSHS Compliance Radar
+          </h2>
+          <p class="text-sm text-slate-400 mt-2 max-w-3xl leading-relaxed">
+            Powered by <strong>Agent 5 (CensusSentinel)</strong> &amp; <strong>Agent 3 (DSHSGuard &amp; RegSentinel)</strong>. Continuously cross-referencing live vacancy feeds and statutory mandates across Washington State Adult Family Home Council, Room &amp; Care, and Washington DSHS Residential Care Services (RCS).
+          </p>
+        </div>
+        <div class="flex items-center gap-3 shrink-0">
+          <span class="text-xs text-slate-400 font-mono bg-slate-900 px-3 py-2 rounded-lg border border-slate-800">
+            Last Sync: <span class="text-emerald-400 font-semibold">Just Now</span> &bull; Status: <span class="text-emerald-400 font-semibold">100% Operational</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- 4 Quick Telemetry Badges -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 block font-medium">Verified Open Beds</span>
+          <span class="text-2xl font-black text-emerald-400 mt-1 block">9 Open Beds</span>
+          <span class="text-[11px] text-slate-500 mt-0.5 block">8 Thurston &bull; 1 Lewis County</span>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 block font-medium">Monitored Regional Homes</span>
+          <span class="text-2xl font-black text-white mt-1 block">370+ Network</span>
+          <span class="text-[11px] text-slate-500 mt-0.5 block">Olympia, Lacey, Tumwater, Chehalis</span>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 block font-medium">Active DSHS Bulletins</span>
+          <span class="text-2xl font-black text-amber-400 mt-1 block">3 Active</span>
+          <span class="text-[11px] text-amber-500/80 mt-0.5 block">1 Critical Wildfire Notice</span>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs text-slate-400 block font-medium">WAC 388-76 Audit Safety</span>
+          <span class="text-2xl font-black text-blue-400 mt-1 block">100% Cleared</span>
+          <span class="text-[11px] text-slate-500 mt-0.5 block">Zero Stop-Placement Risk</span>
+        </div>
+      </div>
+
+      <!-- Dual Intelligence Grid: Vacancy vs Regulation -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- Column 1: Live Bed Vacancies (Agent 5) -->
+        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6">
+          <div class="flex items-center justify-between pb-4 mb-4 border-b border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="text-lg">🛏️</span>
+              <h3 class="text-base font-bold text-white">Live Bed Vacancy Tracker</h3>
+            </div>
+            <span class="text-xs font-mono bg-emerald-950 text-emerald-400 px-2 py-0.5 rounded border border-emerald-800/60">Agent 5 Active</span>
+          </div>
+
+          <div class="space-y-4">
+            <!-- Bed Card 1: Triumphant AFH -->
+            <div class="bg-slate-950/80 border border-slate-800/90 rounded-xl p-4 hover:border-emerald-500/50 transition">
+              <div class="flex justify-between items-start gap-2">
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h4 class="text-sm font-bold text-white">TRIUMPHANT AFH LLC</h4>
+                    <span class="text-[10px] font-bold bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded">5 BEDS OPEN</span>
+                  </div>
+                  <p class="text-xs text-slate-400 mt-1">3007 Catalina Dr SE, Lacey, WA 98503 (4.2 mi from Providence St. Peter)</p>
+                </div>
+                <div class="text-right">
+                  <span class="text-base font-black text-emerald-400">$5,800</span>
+                  <span class="text-[10px] text-slate-400 block">/ month</span>
+                </div>
+              </div>
+              <div class="mt-3 pt-3 border-t border-slate-800/60 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <div class="flex gap-1.5">
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Private Room #7</span>
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Dementia &bull; MH</span>
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Hoyer Lift</span>
+                </div>
+                <span class="text-[10px] text-slate-400 font-mono">Cross-Verified: Council + Room&amp;Care</span>
+              </div>
+            </div>
+
+            <!-- Bed Card 2: Grateful Hearts -->
+            <div class="bg-slate-950/80 border border-slate-800/90 rounded-xl p-4 hover:border-emerald-500/50 transition">
+              <div class="flex justify-between items-start gap-2">
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h4 class="text-sm font-bold text-white">Grateful Hearts Ch V</h4>
+                    <span class="text-[10px] font-bold bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded">1 BED OPEN</span>
+                  </div>
+                  <p class="text-xs text-slate-400 mt-1">1415 Dogwood St SE, Lacey, WA 98503 (4.9 mi)</p>
+                </div>
+                <div class="text-right">
+                  <span class="text-base font-black text-emerald-400">$5,000</span>
+                  <span class="text-[10px] text-slate-400 block">/ month</span>
+                </div>
+              </div>
+              <div class="mt-3 pt-3 border-t border-slate-800/60 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <div class="flex gap-1.5">
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Private Room #B</span>
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Private Pay</span>
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Nurse Delegated</span>
+                </div>
+                <span class="text-[10px] text-slate-400 font-mono">Verified 7h ago</span>
+              </div>
+            </div>
+
+            <!-- Bed Card 3: Radiant Living -->
+            <div class="bg-slate-950/80 border border-slate-800/90 rounded-xl p-4 hover:border-emerald-500/50 transition">
+              <div class="flex justify-between items-start gap-2">
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h4 class="text-sm font-bold text-white">Radiant Living Family Care LLC</h4>
+                    <span class="text-[10px] font-bold bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded">1 BED OPEN</span>
+                  </div>
+                  <p class="text-xs text-slate-400 mt-1">5134 James Pl SE, Olympia, WA 98501 (2.6 mi)</p>
+                </div>
+                <div class="text-right">
+                  <span class="text-base font-black text-slate-200">$6,500</span>
+                  <span class="text-[10px] text-slate-400 block">/ month (Avg)</span>
+                </div>
+              </div>
+              <div class="mt-3 pt-3 border-t border-slate-800/60 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <div class="flex gap-1.5">
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Private / Shared</span>
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Dementia Endorsement</span>
+                </div>
+                <span class="text-[10px] text-slate-400 font-mono">AFH Council Verified</span>
+              </div>
+            </div>
+
+            <!-- Bed Card 4: Seniors Hope II (Lewis County) -->
+            <div class="bg-slate-950/80 border border-slate-800/90 rounded-xl p-4 hover:border-emerald-500/50 transition">
+              <div class="flex justify-between items-start gap-2">
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h4 class="text-sm font-bold text-white">#1st Seniors Hope II AFH</h4>
+                    <span class="text-[10px] font-bold bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded">1 BED OPEN</span>
+                  </div>
+                  <p class="text-xs text-slate-400 mt-1">52 SW 12th St, Chehalis, WA 98532 (Lewis County / Centralia)</p>
+                </div>
+                <div class="text-right">
+                  <span class="text-base font-black text-emerald-400">$7,000</span>
+                  <span class="text-[10px] text-slate-400 block">/ month</span>
+                </div>
+              </div>
+              <div class="mt-3 pt-3 border-t border-slate-800/60 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <div class="flex gap-1.5">
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">Private Room #1</span>
+                  <span class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[11px]">High Acuity Care</span>
+                </div>
+                <span class="text-[10px] text-slate-400 font-mono">Centralia / Chehalis Pool</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: DSHS Regulatory & Deadline Radar (Agent 3) -->
+        <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6">
+          <div class="flex items-center justify-between pb-4 mb-4 border-b border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="text-lg">🛡️</span>
+              <h3 class="text-base font-bold text-white">DSHS Regulations &amp; Deadline Radar</h3>
+            </div>
+            <span class="text-xs font-mono bg-amber-950 text-amber-400 px-2 py-0.5 rounded border border-amber-800/60">Agent 3 Active</span>
+          </div>
+
+          <div class="space-y-4">
+            <!-- Reg Card 1: Wildfire Proclamation Expiration (CRITICAL) -->
+            <div class="bg-red-950/20 border border-red-800/60 rounded-xl p-4.5 relative">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold uppercase tracking-wider bg-red-500/20 text-red-400 px-2 py-0.5 rounded border border-red-500/30">
+                  CRITICAL AUDIT RISK &bull; WAC 388-76-10030
+                </span>
+                <span class="text-[11px] font-mono text-red-300 font-semibold">Expired: Sep 30, 2026</span>
+              </div>
+              <h4 class="text-sm font-bold text-white mt-2">
+                Wildfire Emergency Capacity Flexibilities Expired: Over-Capacity Audit Warning
+              </h4>
+              <p class="text-xs text-slate-300 mt-1.5 leading-relaxed">
+                Emergency capacity expansions and expedited intake provisions enacted during regional wildfire evacuations have officially concluded. Operating beyond licensed bed capacity (6 or 8 beds) under expired emergency provisions subjects facilities to <strong>immediate DSHS RCS unannounced inspection citations, Class A civil fines, and Stop-Placement orders</strong>.
+              </p>
+              <div class="mt-3 pt-2.5 border-t border-red-800/40 text-xs text-red-200 flex items-center justify-between">
+                <span><strong>Mandatory Action:</strong> Reconcile resident census against licensed capacity immediately.</span>
+                <a href="https://adultfamilyhomecouncil.org/news/wildfire-emergency-proclamations-temporary-afh-flexibilities" target="_blank" class="text-red-400 hover:text-red-300 underline font-mono text-[11px]">AFHC Notice &rarr;</a>
+              </div>
+            </div>
+
+            <!-- Reg Card 2: Q4 Staff Training Deadline -->
+            <div class="bg-slate-950/80 border border-slate-800/90 rounded-xl p-4">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded border border-amber-500/30">
+                  UPCOMING MANDATE &bull; WAC 388-76-10165
+                </span>
+                <span class="text-[11px] font-mono text-amber-300 font-semibold">Deadline: Dec 31, 2026</span>
+              </div>
+              <h4 class="text-sm font-bold text-white mt-2">
+                Q4 Direct Care Staff Dementia &amp; Mental Health Training Compliance
+              </h4>
+              <p class="text-xs text-slate-300 mt-1.5 leading-relaxed">
+                Facilities with specialty endorsements must verify all newly hired caregivers complete state-approved specialty curricula within 120 days of hire and file certificates in personnel files for surveyor audit.
+              </p>
+            </div>
+
+            <!-- Reg Card 3: Nurse Delegation Sliding-Scale Insulin -->
+            <div class="bg-slate-950/80 border border-slate-800/90 rounded-xl p-4">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold uppercase tracking-wider bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded border border-blue-500/30">
+                  CLINICAL PROTOCOL &bull; RCW 18.79.260
+                </span>
+                <span class="text-[11px] font-mono text-blue-300">Annual Verification</span>
+              </div>
+              <h4 class="text-sm font-bold text-white mt-2">
+                Subcutaneous Insulin &amp; Gastrostomy Tube Nurse Delegation Annual Review
+              </h4>
+              <p class="text-xs text-slate-300 mt-1.5 leading-relaxed">
+                Verify sliding-scale insulin orders and RN delegation supervisory logs are current to eliminate unauthorized nursing practice citations and retrospective Medicaid reimbursement clawbacks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Action Callout Bar -->
+      <div class="mt-10 bg-gradient-to-r from-brand-900 to-emerald-950 border border-brand-700/50 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+        <div>
+          <h4 class="text-lg font-bold text-white">Need Immediate Placement for an Acute Hospital Discharge?</h4>
+          <p class="text-sm text-emerald-200 mt-1">
+            SoundCare AI coordinates clinical acuity, financial runway, and statutory safety under a guaranteed 120-minute turnaround SLA.
+          </p>
+        </div>
+        <div class="flex gap-3 shrink-0">
+          <a href="#intake" class="px-5 py-3 rounded-xl text-sm font-bold text-slate-900 bg-white hover:bg-slate-100 transition shadow-lg">
+            Request Patient Placement &rarr;
+          </a>
+          <a href="providers.html" class="px-5 py-3 rounded-xl text-sm font-bold text-white bg-brand-600 hover:bg-brand-500 transition shadow-lg">
+            AFH Providers: List Vacancy &rarr;
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Main Intake Section -->
+  <section id="intake" class="py-20 bg-white border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold text-brand-700 uppercase tracking-widest">Free Family & Hospital Case Manager Intake</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-2">Find a Matched Adult Family Home in 120 Minutes</h2>
+        <p class="text-slate-600 mt-3 text-sm">
+          Strictly compliant with Washington State RCW 18.330. Our placement navigation is completely free of charge to seniors and families.
+        </p>
+      </div>
+
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm">
+        <form class="space-y-6" onsubmit="event.preventDefault(); window.submitIntake();">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Your Full Name</label>
+              <input type="text" id="intake-name" required placeholder="Jane Doe" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+            </div>
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Your Role / Relationship</label>
+              <select class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+                <option>Hospital Discharge Planner / MSW / LICSW</option>
+                <option>Son / Daughter / Family DPOA</option>
+                <option>Physician / Post-Acute Coordinator</option>
+                <option>Self (Seeking Care)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Contact Phone</label>
+              <input type="tel" id="intake-phone" required placeholder="e.g. (360) 555-0199" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+            </div>
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Email Address</label>
+              <input type="email" id="intake-email" required placeholder="contact@example.com" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Target County</label>
+              <select id="intake-county" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+                <option value="Thurston">Thurston (Olympia, Lacey, Tumwater)</option>
+                <option value="Lewis">Lewis (Centralia, Chehalis)</option>
+                <option value="Mason">Mason (Shelton, Belfair)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Placement Timeframe</label>
+              <select class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+                <option>Immediate Acute Discharge (&lt; 24-48 Hours)</option>
+                <option>Next 1-2 Weeks</option>
+                <option>Planning Ahead (1-3 Months)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Estimated Monthly Budget</label>
+              <select class="w-full border border-slate-300 rounded-lg px-3 py-2.5 text-sm">
+                <option>$6,500 - $8,000 / mo</option>
+                <option>$8,000 - $10,500+ / mo</option>
+                <option>Medicaid Spend-Down (12-24 Mo Runway)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Clinical Acuity, ADLs & Medical Notes</label>
+            <textarea id="intake-notes" rows="4" placeholder="Detail transfer assistance (Hoyer lift, 2-person assist), cognitive/wandering status, sliding scale insulin, wound care, or dietary restrictions." class="w-full border border-slate-300 rounded-lg p-3 text-sm"></textarea>
+          </div>
+
+          <div class="p-4 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900 leading-relaxed">
+            <strong>Mandatory Written Notice under RCW 18.330:</strong> SoundCare AI is an Elder & Vulnerable Adult Referral Agency. Our placement consultation is provided to seniors and families free of charge; referral fees are paid solely by the receiving Adult Family Home upon successful move-in. Under RCW 18.330.070, no fee is charged or accepted for placements paid in whole or in part by Medicaid.
+          </div>
+
+          <button type="submit" class="w-full py-4 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow-lg transition text-base">
+            Execute 120-Minute Autonomous Match
+          </button>
+        </form>
+
+        <div id="intake-confirmation" class="hidden mt-6 p-6 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-900 text-sm">
+          <h4 class="font-bold text-base mb-1">Placement Request Dispatched to SoundCare Swarm!</h4>
+          <p>Our 10 autonomous agents are processing active bed inventories across Thurston, Lewis, and Mason counties. A clinical brief with 3 verified matches will be delivered within 120 minutes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal & Contact Footer -->
+  <footer id="contact" class="bg-navy-900 text-slate-400 py-16 border-t border-slate-800 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10">
+      
+      <div class="space-y-4 md:col-span-1">
+        <div class="flex items-center gap-2 text-white font-bold text-base">
+          <div class="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-xs">
+            SC
+          </div>
+          <span>SoundCare AI</span>
+        </div>
+        <p class="leading-relaxed">
+          AI-Native Post-Acute Placement Intelligence connecting acute hospitals with licensed Adult Family Homes across Washington State.
+        </p>
+        <p class="text-[11px] text-slate-500">
+          SoundCare LLC &bull; Washington UBI Registered<br>
+          Compliant with RCW 18.330 & WAC 388-76.
+        </p>
+      </div>
+
+      <div class="space-y-2">
+        <h4 class="font-bold text-white text-sm uppercase tracking-wider">County Coverage</h4>
+        <ul class="space-y-1.5 text-slate-400">
+          <li>&bull; Olympia, Lacey, Tumwater (Thurston)</li>
+          <li>&bull; Centralia, Chehalis (Lewis)</li>
+          <li>&bull; Shelton, Belfair (Mason)</li>
+          <li>&bull; Yelm, Rochester, Tenino</li>
+        </ul>
+      </div>
+
+      <div class="space-y-2">
+        <h4 class="font-bold text-white text-sm uppercase tracking-wider">Technology & Legal</h4>
+        <ul class="space-y-1.5 text-slate-400">
+          <li>&bull; SoundCare 10-Agent Swarm</li>
+          <li>&bull; Claude 3.5 Sonnet CSP Kernel</li>
+          <li>&bull; DSHS RCS Real-Time Audit</li>
+          <li>&bull; RCW 18.330 E-Sign Vault</li>
+        </ul>
+      </div>
+
+      <div class="space-y-3">
+        <h4 class="font-bold text-white text-sm uppercase tracking-wider">Headquarters & Executive</h4>
+        <p class="text-slate-300">
+          <strong>SoundCare LLC</strong><br>
+          12924 SE 301st ST<br>
+          Auburn, WA 98092
+        </p>
+        <p>
+          <strong>CEO:</strong> Henry Oh<br>
+          <strong>Phone:</strong> +1 (415) 767-8875<br>
+          <strong>Email:</strong> <a href="mailto:contact@soundcarewa.com">contact@soundcarewa.com</a>
+        </p>
+        <div class="pt-2">
+          <span class="inline-block px-2.5 py-1 bg-slate-800 rounded text-slate-400 text-[10px] font-mono border border-slate-700">
+            Anthropic Startup Program Applicant
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-center text-slate-500">
+      &copy; 2026 SoundCare LLC. All Rights Reserved. Executive Office: 12924 SE 301st ST, Auburn, WA 98092.
+    </div>
+  </footer>
+
+  <!-- Quick Match Script -->
+  <script>
+    window.runQuickMatch = function() {
+      const county = document.getElementById('quick-county').value;
+      const resultDiv = document.getElementById('quick-result');
+      const resultText = document.getElementById('quick-result-text');
+
+      let matches = (county === 'thurston') ? 14 : ((county === 'lewis') ? 4 : 3);
+      let countyLabel = (county === 'thurston') ? "Thurston County (Olympia/Lacey/Tumwater)" : ((county === 'lewis') ? "Lewis County (Centralia/Chehalis)" : "Mason County (Shelton/Belfair)");
+
+      resultText.innerHTML = `Found <strong>${matches} licensed Adult Family Homes</strong> in <strong>${countyLabel}</strong> with verified bed vacancies matching your clinical and transfer acuity constraints.`;
+      resultDiv.classList.remove('hidden');
+    };
+
+    window.submitIntake = function() {
+      document.getElementById('intake-confirmation').classList.remove('hidden');
+    };
+  </script>
+</body>
+</html>

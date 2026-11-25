@@ -1,0 +1,303 @@
+{
+  "source": "https://soundcarewa.com/",
+  "fetched_at": "2026-11-25T20:16:30Z",
+  "note": "Public pages only. Unknown paths on this host return the homepage. There is no separate public API, image library, or downloadable database. Bed counts and regulatory notices are the values written into the HTML at fetch time.",
+  "organization": {
+    "legal_name": "SoundCare LLC",
+    "brand": "SoundCare AI",
+    "tagline": "Post-Acute Placement Intelligence",
+    "ceo": "Henry Oh",
+    "phone": "+1 (415) 767-8875",
+    "emails": [
+      "contact@soundcarewa.com",
+      "disclosures@soundcarewa.com",
+      "henry@soundcarewa.com",
+      "privacy@soundcarewa.com"
+    ],
+    "address": "12924 SE 301st ST, Auburn, WA 98092",
+    "headquarters_statements": [
+      "Headquartered in Auburn, WA (homepage announcement bar and footer)",
+      "Headquartered in Tumwater, Washington (about page lead paragraph); the same page lists the Auburn street address"
+    ],
+    "positioning": "Elder and Vulnerable Adult Referral Agency under RCW 18.330. Placement consultation is free to seniors and families. Referral fees are paid by the receiving Adult Family Home. No fee for placements paid in whole or in part by Medicaid (RCW 18.330.070).",
+    "coverage": [
+      "Thurston County: Olympia, Lacey, Tumwater",
+      "Lewis County: Centralia, Chehalis",
+      "Mason County: Shelton, Belfair",
+      "Also named: Yelm, Rochester, Tenino"
+    ],
+    "hospitals_named": [
+      "Providence St. Peter",
+      "Capital Medical",
+      "Providence Centralia",
+      "Mason General"
+    ],
+    "claims": {
+      "licensed_afh_network": "370+",
+      "hospital_sla": "under 120 minutes",
+      "family_cost": "100% free under RCW 18.330",
+      "match_kernel": "SoundCare MatchKernel v4.2",
+      "model_named": "Anthropic Claude 3.5 Sonnet",
+      "sync_schedule_utc": [
+        "00:00",
+        "06:00",
+        "12:00",
+        "18:00"
+      ],
+      "quick_match_home_counts": {
+        "thurston": 14,
+        "lewis": 4,
+        "mason": 3
+      }
+    }
+  },
+  "open_beds": [
+    {
+      "name": "TRIUMPHANT AFH LLC",
+      "beds_open": 5,
+      "address": "3007 Catalina Dr SE, Lacey, WA 98503",
+      "distance": "4.2 mi from Providence St. Peter",
+      "rate": "$5,800 / month",
+      "details": [
+        "Private Room #7",
+        "Dementia",
+        "MH",
+        "Hoyer Lift"
+      ],
+      "verification": "Cross-Verified: Council + Room&Care"
+    },
+    {
+      "name": "Grateful Hearts Ch V",
+      "beds_open": 1,
+      "address": "1415 Dogwood St SE, Lacey, WA 98503",
+      "distance": "4.9 mi",
+      "rate": "$5,000 / month",
+      "details": [
+        "Private Room #B",
+        "Private Pay",
+        "Nurse Delegated"
+      ],
+      "verification": "Verified 7h ago"
+    },
+    {
+      "name": "Radiant Living Family Care LLC",
+      "beds_open": 1,
+      "address": "5134 James Pl SE, Olympia, WA 98501",
+      "distance": "2.6 mi",
+      "rate": "$6,500 / month (Avg)",
+      "details": [
+        "Private / Shared",
+        "Dementia Endorsement"
+      ],
+      "verification": "AFH Council Verified"
+    },
+    {
+      "name": "#1st Seniors Hope II AFH",
+      "beds_open": 1,
+      "address": "52 SW 12th St, Chehalis, WA 98532",
+      "distance": "Lewis County / Centralia",
+      "rate": "$7,000 / month",
+      "details": [
+        "Private Room #1",
+        "High Acuity Care"
+      ],
+      "verification": "Centralia / Chehalis Pool"
+    }
+  ],
+  "census_summary": {
+    "verified_open_beds": "9 Open Beds",
+    "split": "8 Thurston, 1 Lewis County",
+    "monitored_homes": "370+ Network",
+    "cities": "Olympia, Lacey, Tumwater, Chehalis",
+    "active_dshs_bulletins": "3 Active, 1 Critical Wildfire Notice",
+    "wac_388_76_audit_safety": "100% Cleared, Zero Stop-Placement Risk",
+    "listed_bed_cards_sum": 8,
+    "listed_vs_summary": "The four vacancy cards add up to 8 open beds. The summary badge says 9 open beds."
+  },
+  "regulations": [
+    {
+      "severity": "CRITICAL AUDIT RISK",
+      "citation": "WAC 388-76-10030",
+      "deadline": "Expired: Sep 30, 2026",
+      "title": "Wildfire Emergency Capacity Flexibilities Expired: Over-Capacity Audit Warning",
+      "summary": "Emergency capacity expansions and expedited intake provisions enacted during regional wildfire evacuations have officially concluded. Operating beyond licensed bed capacity (6 or 8 beds) under expired emergency provisions subjects facilities to immediate DSHS RCS unannounced inspection citations, Class A civil fines, and Stop-Placement orders.",
+      "action": "Reconcile resident census against licensed capacity immediately.",
+      "link": "https://adultfamilyhomecouncil.org/news/wildfire-emergency-proclamations-temporary-afh-flexibilities"
+    },
+    {
+      "severity": "UPCOMING MANDATE",
+      "citation": "WAC 388-76-10165",
+      "deadline": "Dec 31, 2026",
+      "title": "Q4 Direct Care Staff Dementia & Mental Health Training Compliance",
+      "summary": "Facilities with specialty endorsements must verify all newly hired caregivers complete state-approved specialty curricula within 120 days of hire and file certificates in personnel files for surveyor audit."
+    },
+    {
+      "severity": "CLINICAL PROTOCOL",
+      "citation": "RCW 18.79.260",
+      "deadline": "Annual Verification",
+      "title": "Subcutaneous Insulin & Gastrostomy Tube Nurse Delegation Annual Review",
+      "summary": "Verify sliding-scale insulin orders and RN delegation supervisory logs are current to eliminate unauthorized nursing practice citations and retrospective Medicaid reimbursement clawbacks."
+    }
+  ],
+  "agents": [
+    {
+      "n": 1,
+      "name": "DocParse",
+      "role": "Epic 40-page discharge EHR and OCR ingestion."
+    },
+    {
+      "n": 2,
+      "name": "AcuityRN",
+      "role": "DSHS 0-4 ADL scoring and nurse delegation triggers."
+    },
+    {
+      "n": 3,
+      "name": "DSHSGuard",
+      "role": "Continuous DSHS RCS license audit and citation scoring. Homepage also calls this agent RegSentinel."
+    },
+    {
+      "n": 4,
+      "name": "MatchKernel",
+      "role": "Multi-constraint satisfaction solver (W-PCSP). Homepage labels the widget MatchKernel v4.2."
+    },
+    {
+      "n": 5,
+      "name": "BedPing",
+      "role": "Twilio 2-way SMS micro-pings to 370 AFH owners. Homepage census labels Agent 5 as CensusSentinel."
+    },
+    {
+      "n": 6,
+      "name": "CaseBridge",
+      "role": "120-minute SLA clinical transition briefs for hospitals."
+    },
+    {
+      "n": 7,
+      "name": "LexDisclose",
+      "role": "Automated RCW 18.330 disclosures and DocuSign vault."
+    },
+    {
+      "n": 8,
+      "name": "FamilyCare",
+      "role": "24/7 empathetic concierge and Calendly touring sync."
+    },
+    {
+      "n": 9,
+      "name": "RunwayCFO",
+      "role": "Private pay runway and Medicaid spend-down strategist."
+    },
+    {
+      "n": 10,
+      "name": "Orchestrator",
+      "role": "Chief of Staff: 1-click mobile approval for CEO."
+    }
+  ],
+  "intake_form": {
+    "roles": [
+      "Hospital Discharge Planner / MSW / LICSW",
+      "Son / Daughter / Family DPOA",
+      "Physician / Post-Acute Coordinator",
+      "Self (Seeking Care)"
+    ],
+    "counties": [
+      "Thurston",
+      "Lewis",
+      "Mason"
+    ],
+    "timeframes": [
+      "Immediate Acute Discharge (< 24-48 Hours)",
+      "Next 1-2 Weeks",
+      "Planning Ahead (1-3 Months)"
+    ],
+    "budgets": [
+      "$6,500 - $8,000 / mo",
+      "$8,000 - $10,500+ / mo",
+      "Medicaid Spend-Down (12-24 Mo Runway)"
+    ],
+    "acuity_options": [
+      "Hoyer Mechanical Lift + 2-Person Physical Assist",
+      "Secured Memory Care / Wandering / Delayed Egress",
+      "Nurse-Delegated Sliding-Scale Insulin & Wound Care",
+      "Standard Assisted Living / Ambulatory ADL Support"
+    ],
+    "behavior": "The form does not submit to a server. submitIntake() only reveals a confirmation message in the page."
+  },
+  "provider_page": {
+    "offer": "Register an Adult Family Home to list open beds. Form fields: home name, county, DSHS license number, vacancy count, owner name, mobile phone, business email.",
+    "form_behavior": "Submit shows a browser alert: Bed inventory logged with SoundCare AI. Our BedPing agent will confirm via SMS. No network request is made.",
+    "compliance_steps": [
+      "Audit licensed roster against current residents",
+      "Coordinate priority transition of overflow residents into community AFHs in Lacey and Olympia",
+      "Retain emergency sheltering documentation and state approval records"
+    ],
+    "product": {
+      "name": "SoundCare AFH Intake & Follow-up Agent",
+      "setup": "Initial Setup & Workflow Configuration. The displayed price element is empty.",
+      "retainer": "Intake & Follow-Up Automation Retainer. The displayed monthly price element is empty. Pilot limited to the first 10 homes in Thurston and Lewis Counties.",
+      "pipeline": [
+        "Family Inquiry — omnichannel intake (phone / web / EHR)",
+        "Acuity Audit — ADL scores and budget runway extraction",
+        "Gap Detection — missing TB, DPOA, and PT transfer scores",
+        "Follow-up Plan — customized RCW 18.330 disclosure packet",
+        "Owner Gate — 1-tap mobile approval before dispatch"
+      ]
+    }
+  },
+  "privacy_policy": {
+    "updated": "November 2026",
+    "collects": "Preliminary health care inquiry details, hospital discharge summaries, Activities of Daily Living (ADLs), and contact information submitted by seniors, family representatives, and hospital discharge planners.",
+    "processing": "Used to match with licensed Adult Family Homes in Thurston, Lewis, and Mason counties. The page states Anthropic Claude API is used under enterprise Zero Data Retention and a Business Associate Agreement, and that clinical data is not used to train foundation models.",
+    "sharing": "Not sold, rented, or traded. Shared only with prospective licensed Adult Family Homes with explicit client consent."
+  },
+  "terms": {
+    "updated": "November 2026",
+    "service": "Senior care housing referral, placement advisory, and matching under RCW 18.330.",
+    "fees": "Free to seniors and families. Placement fees paid by the receiving Adult Family Home. No fee when Medicaid or public assistance pays in whole or in part.",
+    "scope": "Advisory only. Does not provide direct healthcare, nursing, or medical services. The senior or their legal representative chooses the home."
+  },
+  "pages": [
+    {
+      "file": "site/index.html",
+      "source_url": "https://soundcarewa.com/",
+      "title": "SoundCare AI | Autonomous Post-Acute Placement Intelligence for Washington AFHs",
+      "description": "AI-Native acute-to-AFH placement platform connecting hospital discharge planners and families with licensed Adult Family Homes across Thurston, Lewis, and Mason counties. Powered by SoundCare 10-Agent Swarm.",
+      "bytes": 37295,
+      "sha256": "9f22a4bf8d6daf0090a0c51dfd627484b6d4660121f92cd9b06e8746f073d929"
+    },
+    {
+      "file": "site/about.html",
+      "source_url": "https://soundcarewa.com/about.html",
+      "title": "About SoundCare AI | AI-Native Post-Acute Placement Intelligence",
+      "description": "",
+      "bytes": 7604,
+      "sha256": "1b428a08bee071bb0e878cb85651733e7b69f4c66ac9b64b2b508d004c96728a"
+    },
+    {
+      "file": "site/providers.html",
+      "source_url": "https://soundcarewa.com/providers.html",
+      "title": "For AFH Providers | SoundCare AI Network",
+      "description": "",
+      "bytes": 16763,
+      "sha256": "df760b8185a748d225025b42f6e5c2edf16853e5f25afc47120c9044d374b87b"
+    },
+    {
+      "file": "site/privacy.html",
+      "source_url": "https://soundcarewa.com/privacy.html",
+      "title": "Privacy Policy | SoundCare AI",
+      "description": "",
+      "bytes": 2604,
+      "sha256": "dfbbb2ca1e146f826bd7955c218a332b575badccb3f0a905d45b31d421b84267"
+    },
+    {
+      "file": "site/terms.html",
+      "source_url": "https://soundcarewa.com/terms.html",
+      "title": "Terms of Service & RCW 18.330 Disclosure | SoundCare AI",
+      "description": "",
+      "bytes": 2840,
+      "sha256": "090a89eb4dec08a60110de66f430aa28164f7e458592c4cdbcf8ed7442d14520"
+    }
+  ],
+  "external_dependencies": [
+    "https://cdn.tailwindcss.com",
+    "https://fonts.googleapis.com (Plus Jakarta Sans, Playfair Display)"
+  ]
+}
