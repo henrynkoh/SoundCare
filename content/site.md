@@ -180,6 +180,8 @@ CEO: Henry Oh
 Phone: +1 (415) 767-8875
 Email: contact@soundcarewa.com
 Anthropic Startup Program Applicant
+Affiliate Sites
+- AFH Desk: https://henrynkoh.github.io/AFH-Desk/index.html
 © 2026 SoundCare LLC. All Rights Reserved. Executive Office: 12924 SE 301st ST, Auburn, WA 98092.
 
 ## About — https://soundcarewa.com/about.html

@@ -14,6 +14,13 @@
       "henry@soundcarewa.com",
       "privacy@soundcarewa.com"
     ],
+    "affiliate_sites": [
+      {
+        "name": "AFH Desk",
+        "url": "https://henrynkoh.github.io/AFH-Desk/index.html",
+        "placement": "Homepage footer, directly under Anthropic Startup Program Applicant. The Affiliate Sites button opens this list."
+      }
+    ],
     "address": "12924 SE 301st ST, Auburn, WA 98092",
     "headquarters_statements": [
       "Headquartered in Auburn, WA (homepage announcement bar and footer)",
