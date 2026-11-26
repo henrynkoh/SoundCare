@@ -186,6 +186,7 @@ Affiliate Sites
 - AI Senior Placement Tracker: https://github.com/henrynkoh/AI_Senior_Placement_Tracker
 - SoundCare: https://soundcarewa.com/
 - AI Trading Benchmark: https://soundcarewa.com/AI_Trading_benchmarking.html
+- SoundCareMatch: https://soundcarewa.com/soundcarematch/
 © 2026 SoundCare LLC. All Rights Reserved. Executive Office: 12924 SE 301st ST, Auburn, WA 98092.
 
 ## About — https://soundcarewa.com/about.html

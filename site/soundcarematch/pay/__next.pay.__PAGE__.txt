@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:"/soundcarematch/_next/static/chunks/0tmy2e6qp5nyx.js"
+3:I[138,["$2"],"Header"]
+4:I[39756,["$2"],"default"]
+5:"/soundcarematch/_next/static/chunks/0a0kvvbuzjgm-.js"
+6:I[8821,["$2","$5"],"default"]
+7:I[37457,["$2"],"default"]
+8:I[22016,["$2"],""]
+9:I[138,["$2"],"Footer"]
+10:I[97367,["$2"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$2"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$2"],"$16"]
+:HL["/soundcarematch/_next/static/chunks/2gha-8_-1ovsd.css","style"]
+b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"grid max-w-3xl gap-8","children":[["$","header",null,{"children":[["$","h1",null,{"className":"text-4xl font-bold","children":"Paying for care"}],["$","p",null,{"className":"mt-3","children":"The four paths below are the ones South Sound families actually mix. Confirm every benefit before you sign a home agreement."}]]}],["$","div",null,{"className":"grid gap-6","children":[["$","section","private",{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"Private pay"}],["$","p",null,{"className":"mt-2","children":"You or your family pay the home. Snapshot rates on this site run from $5,000 to $7,000 a month. Ask what supplies, transport, and cable are extra."}]]}],["$","section","medicaid",{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"Medicaid"}],["$","p",null,{"className":"mt-2","children":"Apple Health long-term services go through Home and Community Services. A home may take Medicaid, private pay, or both. SoundCare does not charge a family, and it does not take a fee for a placement paid by Medicaid."}]]}],["$","section","medicare",{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"Medicare"}],["$","p",null,{"className":"mt-2","children":"Medicare can cover a qualifying skilled nursing or rehab stay. Ongoing help with bathing, meals, and a room in an adult family home needs another way to pay."}]]}],["$","section","wacares",{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"WA Cares"}],["$","p",null,{"className":"mt-2","children":"Washington's long-term care fund can help eligible workers. Confirm the current benefit and whether a home can use it at wacaresfund.wa.gov before you count on it."}]]}]]}],["$","p",null,{"children":["Official starting points: ",["$","a",null,{"className":"font-semibold","href":"https://www.medicare.gov/coverage/long-term-care","children":"Medicare.gov"}],", ",["$","a",null,{"className":"font-semibold","href":"https://wacaresfund.wa.gov/","children":"WA Cares"}],", and ",["$","a",null,{"className":"font-semibold","href":"https://www.lmtaaa.org/","children":"Lewis-Mason-Thurston Area Agency on Aging"}],"."]}],["$","$L8",null,{"className":"font-bold text-accent","href":"/help/","children":"Ask SoundCare which path fits"}]]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"pay","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/soundcarematch/_next/static/chunks/2gha-8_-1ovsd.css","precedence":"next"}],["$","script","script-0",{"src":"/soundcarematch/_next/static/chunks/0tmy2e6qp5nyx.js","async":true}]],["$","html",null,{"lang":"en","className":"uJwZvG_variable h-full","suppressHydrationWarning":true,"children":["$","body",null,{"className":"flex min-h-full flex-col","children":[["$","a",null,{"className":"skip","href":"#main","children":"Skip to content"}],["$","$L3",null,{}],["$","main",null,{"id":"main","className":"mx-auto w-full max-w-7xl flex-1 px-4 py-8","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$6","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/soundcarematch/_next/static/chunks/0a0kvvbuzjgm-.js","async":true}]],"template":["$","$L7",null,{}],"notFound":[["$","div",null,{"className":"max-w-xl","children":[["$","h1",null,{"className":"text-4xl font-bold","children":"That page is not in SoundCareMatch."}],["$","p",null,{"className":"mt-3","children":"The homes and counties on this app are only Thurston, Lewis, and Mason."}],["$","$L8",null,{"className":"mt-4 inline-flex min-h-12 items-center font-bold text-accent","href":"/","children":"Back to the start"}]]}],[]]}]}],["$","$L9",null,{}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Paying for care · SoundCareMatch"}],["$","meta","1",{"name":"description","content":"Compare adult family homes in Thurston, Lewis, and Mason counties with 30 care points, a visit sheet, and free SoundCare placement help."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@18","v":null,"s":"$b"}},"a":"$@19","u":"$@1a","b":"wxOwnA6K8RrZSP6-Ib025"}
+12:null
+b:300
+1a:true
+b:C
+19:0
+d:"$undefined"
+a:"$undefined"
+18:"$undefined"
+13:"$undefined"
