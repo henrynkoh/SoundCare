@@ -184,6 +184,7 @@ Affiliate Sites
 - AFH Desk: https://henrynkoh.github.io/AFH-Desk/index.html
 - SolarBench: https://aistudio.google.com/apps/58ce9f70-b286-4228-b377-5850b7f0d4ac
 - AI Senior Placement Tracker: https://github.com/henrynkoh/AI_Senior_Placement_Tracker
+- SoundCare: https://soundcarewa.com/
 © 2026 SoundCare LLC. All Rights Reserved. Executive Office: 12924 SE 301st ST, Auburn, WA 98092.
 
 ## About — https://soundcarewa.com/about.html
