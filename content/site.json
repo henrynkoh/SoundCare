@@ -19,6 +19,11 @@
         "name": "AFH Desk",
         "url": "https://henrynkoh.github.io/AFH-Desk/index.html",
         "placement": "Homepage footer, directly under Anthropic Startup Program Applicant. The Affiliate Sites button opens this list."
+      },
+      {
+        "name": "SolarBench",
+        "url": "https://aistudio.google.com/apps/58ce9f70-b286-4228-b377-5850b7f0d4ac",
+        "placement": "Homepage footer Affiliate Sites list, under AFH Desk."
       }
     ],
     "address": "12924 SE 301st ST, Auburn, WA 98092",
